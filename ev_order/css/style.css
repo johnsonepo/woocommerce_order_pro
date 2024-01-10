@@ -1,0 +1,40 @@
+/* styles.css */
+
+.ev-hover-tabs.ui-tabs {
+    overflow: visible !important;
+    width: 100%;
+}
+
+.ev-hover-tabs.ui-tabs .ui-tabs-nav {
+    margin-left: 0;
+    position: absolute;
+    right: 0;
+}
+
+.ev-hover-tabs.ui-tabs .ui-tabs-nav li {
+    display: block;
+    float: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.ev-hover-tabs.ui-tabs .ui-tabs-nav a {
+    float: none;
+}
+
+.ev-hover-tabs.ui-tabs .ui-tabs-nav li:hover {
+    z-index: 100;
+}
+
+.ev-hover-tabs.ui-tabs .ui-tabs-nav li.ui-tabs-active:hover {
+    z-index: 101;
+}
+
+.ev-hover-tabs.ui-tabs .ui-tabs-nav li:hover a {
+    z-index: 100;
+}
+
+.ev-hover-tabs.ui-tabs .ui-tabs-nav li.ui-tabs-active:hover a {
+    z-index: 101;
+}
